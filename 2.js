@@ -4,22 +4,13 @@ const readline = require('readline').createInterface({
     });
     
     readline.question('bir sayi daxil edin?', sayi => {
-        if( 0 <= sayi <= 100){
-            console.log("Sayi 0 ile 100 arasinda");
+        if( sayi/2 ){
+            console.log("sayi ciftdir");
         }
         else{
-            console.log("Sayi 0 ile 100 arasinda deyil");
+            console.log("sayi tekdir");
         }
 
         readline.close();
         });
      
-
-       
-
-
-
-
-    
-    
-    
